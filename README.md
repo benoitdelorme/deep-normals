@@ -1,5 +1,5 @@
-# Install TensorFlow On MACBOOK AIR M1
-## 1.Set up
+## Install TensorFlow On Macbook air M1
+### 1. Set up
 - Download [Conda](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh)
 ```
 bash ~/miniconda.sh -b -p $HOME/miniconda
@@ -7,17 +7,17 @@ source ~/miniconda/bin/activate
 conda install -c apple tensorflow-deps
 ```
 
-## 2. Install base TensorFlow
+### 2. Install base TensorFlow
 ```
 python -m pip install tensorflow-macos
 ```
 
-## 3. Install tensorflow-metal plug-in
+### 3. Install tensorflow-metal plug-in
 ```
 python -m pip install tensorflow-metal
 ```
 
-## 4. Verify
+### 4. Verify
 ```
 import tensorflow as tf
 
