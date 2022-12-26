@@ -1,4 +1,6 @@
 ## Install TensorFlow On Macbook air M1
+[tutorial](https://developer.apple.com/metal/tensorflow-plugin/)
+
 ### 1. Set up
 - Download [Conda](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh)
 ```
